@@ -8,7 +8,7 @@ exports[`StartPage should render correctly 1`] = `
     <img
       alt="Millionaire's finger"
       class="custom-image"
-      src="/finger.png"
+      src="/game-millionaire/finger.png"
     />
     <h2
       class="custom-heading"
@@ -17,7 +17,7 @@ exports[`StartPage should render correctly 1`] = `
     </h2>
     <a
       class="shared-link custom-button"
-      href="/game"
+      href="/game-millionaire/game"
     >
       Start
     </a>
