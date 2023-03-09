@@ -12,15 +12,15 @@ import { getRandomQuestions } from '../../utils';
 const Game: FC = () => {
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const { isResizedScreen, setIsResizedScreen } = useShowSidebar();
+
   const navigate = useNavigate();
-  const { answers, question, reward } = getRandomQuestions(questions)[questionIndex];
-  const lastQuestion = questionIndex === questions.length - 1;
   const { setTimer } = useTimeout();
+  const { answers, question, reward } = getRandomQuestions(questions)[questionIndex];
 
   const handleQuestion = (correct: boolean) => {
     setTimer(HANDLE_QUESTION_DELAY, () => {
-      if (!correct || lastQuestion) {
-        navigate('/gameover', { state: { reward, win: lastQuestion } });
+      if (!correct || questionIndex === questions.length - 1) {
+        navigate('/gameover', { state: { reward } });
         return;
       }
       setQuestionIndex((prev) => prev + 1);
