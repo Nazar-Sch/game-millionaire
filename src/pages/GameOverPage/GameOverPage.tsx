@@ -1,11 +1,11 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 import { useLocation } from 'react-router-dom';
 import StyledLink from '../../components/StyledLink';
 import { convertToUSD } from '../../utils';
 
 const GameOver: FC = () => {
   const {
-    state: { reward },
+    state: { reward }
   } = useLocation();
 
   return (

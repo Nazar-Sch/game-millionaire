@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import NoMatch from './pages/NoMatch';
 import Start from './pages/StartPage/StartPage';
 import GameOver from './pages/GameOverPage/GameOverPage';

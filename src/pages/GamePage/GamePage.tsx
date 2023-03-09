@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import React, { FC, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HANDLE_QUESTION_DELAY } from '../../contants';
 import questions from '../../questions.json';
@@ -13,7 +13,6 @@ const Game: FC = () => {
   const [questionIndex, setQuestionIndex] = useState<number>(0);
   const { isResizedScreen, setIsResizedScreen } = useShowSidebar();
   const navigate = useNavigate();
-  console.log(questions);
   const { answers, question, reward } = getRandomQuestions(questions)[questionIndex];
   const lastQuestion = questionIndex === questions.length - 1;
   const { setTimer } = useTimeout();

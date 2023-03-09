@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import { FIELDS_NAMES, HANDLE_CLASSNAME_DELAY } from '../../../../contants';
 import useTimeout from '../../../../hooks/useTimeout';
 import { cx } from '../../../../utils';
@@ -25,7 +25,6 @@ const AnswersList: FC<AnswersListProps> = ({ answers, handleQuestion }) => {
     setSelectedIndex(idx);
 
     setTimer(HANDLE_CLASSNAME_DELAY, () => {
-      console.log('correct', correct);
       if (correct) {
         setClassName('correct');
         return;

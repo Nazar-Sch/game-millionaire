@@ -1,0 +1,132 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "2018",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "react-hooks"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off",
+    "@typescript-eslint/semi": ["error"],
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1,
+        "VariableDeclarator": 1,
+        "MemberExpression": 1,
+        "FunctionExpression": {
+          "body": 1,
+          "parameters": 2
+        },
+        "FunctionDeclaration": {
+          "body": 1,
+          "parameters": 2
+        },
+        "CallExpression": {
+          "arguments": 1
+        },
+        "ArrayExpression": 1,
+        "ObjectExpression": 1,
+        "ImportDeclaration": 1,
+        "offsetTernaryExpressions": true
+      }
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": ["error", "info"]
+      }
+    ],
+    "no-extra-parens": ["error", "functions"],
+    "no-template-curly-in-string": "error",
+    "no-unreachable-loop": "error",
+    "array-callback-return": "error",
+    "no-unused-vars": "off",
+    "block-scoped-var": "error",
+    "no-alert": "error",
+    "no-empty-function": "error",
+    "no-lone-blocks": "error",
+    "block-spacing": "error",
+    "brace-style": "error",
+    "comma-dangle": ["error"],
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "comma-style": ["error", "last"],
+    "computed-property-spacing": ["error", "never"],
+    "eol-last": ["error", "always"],
+    "func-call-spacing": ["error", "never"],
+    "key-spacing": [
+      "error",
+      {
+        "multiLine": {
+          "beforeColon": false,
+          "afterColon": true
+        }
+      }
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 150
+      }
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "arrow-body-style": ["error", "as-needed"],
+    "no-case-declarations": "off",
+    "require-yield": "off", // TODO: change to ["always"]
+    "array-bracket-spacing": ["error", "never"],
+    "object-curly-spacing": [2, "always"],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["single", "all", "multiple", "none"],
+        "allowSeparatedGroups": true
+      }
+    ],
+    "jsx-quotes": ["error", "prefer-single"],
+    "eol-last": ["error", "always"],
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 0 }]
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
+}

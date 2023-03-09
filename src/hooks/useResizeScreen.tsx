@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const useResizeScreen = () => {
   const [isResizedScreen, setIsResizedScreen] = useState(false);
@@ -19,7 +19,7 @@ const useResizeScreen = () => {
 
   return {
     isResizedScreen,
-    setIsResizedScreen,
+    setIsResizedScreen
   };
 };
 

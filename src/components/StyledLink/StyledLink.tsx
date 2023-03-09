@@ -1,5 +1,5 @@
 import React, { FC, memo } from 'react';
-import { Link as RouterLink, LinkProps } from 'react-router-dom';
+import { LinkProps, Link as RouterLink } from 'react-router-dom';
 import { cx } from '../../utils';
 import './styles.css';
 
