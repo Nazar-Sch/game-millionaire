@@ -46,7 +46,7 @@ const AnswersList: FC<AnswersListProps> = ({ answers, handleQuestion }) => {
             onClick={() => !selectedIndex && handleSelectAnswer(answer.correct, FIELDS_NAMES[idx])}
           >
             <span className="answer-btn__index">{FIELDS_NAMES[idx]}</span>
-            {answer.text}
+            <span className="answer-btn__item-text">{answer.text}</span>
           </button>
           <div className={cx('answer-btn__right-line', selectedIndex === FIELDS_NAMES[idx] ? className : '')} />
         </div>
