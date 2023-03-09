@@ -91,11 +91,33 @@
 .answer-btn__item.selected::after {
   background-color: var(--orange-5-color);
   border-color: var(--orange-100-color);
+  animation: selected 3s ease forwards;
 }
 
 .answer-btn__left-line.selected,
 .answer-btn__right-line.selected {
   background-color: var(--orange-100-color);
+}
+
+@keyframes selected {
+
+  0%,
+  22%,
+  42% {
+    background-color: var(--white-color);
+  }
+
+  20%,
+  40%,
+  60% {
+    background-color: var(--orange-5-color);
+  }
+
+  62%,
+  82%,
+  100% {
+    background-color: var(--white-color);
+  }
 }
 
 /* Correct */
