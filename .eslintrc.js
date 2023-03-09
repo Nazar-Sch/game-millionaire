@@ -10,10 +10,12 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
-  extends: ['airbnb', 'airbnb-typescript', 'airbnb/hooks'],
-  plugins: ['react', '@typescript-eslint', 'import'],
+  extends: ['airbnb', 'airbnb/hooks', 'airbnb-typescript', 'plugin:react-hooks/recommended'],
+  plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
-    "react/no-array-index-key": 0,
+    'react/no-array-index-key': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
