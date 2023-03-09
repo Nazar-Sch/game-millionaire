@@ -36,19 +36,19 @@ const AnswersList: FC<AnswersListProps> = ({ answers, handleQuestion }) => {
   };
 
   return (
-    <div className='answers-container'>
+    <div className="answers-container">
       {answers.map((answer, idx) => (
-        <div key={idx} className='answer-btn__wrapper'>
-          <div className={cx('answer-btn__left-line', selectedIndex === FIELDS_NAMES[idx] ? className : '')}></div>
+        <div key={idx} className="answer-btn__wrapper">
+          <div className={cx('answer-btn__left-line', selectedIndex === FIELDS_NAMES[idx] ? className : '')} />
           <button
+            type="button"
             className={cx('answer-btn__item', selectedIndex === FIELDS_NAMES[idx] ? className : '')}
-            onClick={() => !selectedIndex && handleSelectAnswer(answer.correct, FIELDS_NAMES[idx])}>
-            <>
-              <span className='answer-btn__index'>{FIELDS_NAMES[idx]}</span>
-              {answer.text}
-            </>
+            onClick={() => !selectedIndex && handleSelectAnswer(answer.correct, FIELDS_NAMES[idx])}
+          >
+            <span className="answer-btn__index">{FIELDS_NAMES[idx]}</span>
+            {answer.text}
           </button>
-          <div className={cx('answer-btn__right-line', selectedIndex === FIELDS_NAMES[idx] ? className : '')}></div>
+          <div className={cx('answer-btn__right-line', selectedIndex === FIELDS_NAMES[idx] ? className : '')} />
         </div>
       ))}
     </div>

@@ -8,7 +8,7 @@ describe('StartPage', () => {
     const { container } = render(
       <MemoryRouter>
         <StartPage />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
   });

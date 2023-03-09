@@ -32,12 +32,12 @@ const Game: FC = () => {
   };
 
   return (
-    <div className='game__container'>
-      <button className='game__burger-btn' onClick={handleBurgerClick}>
-        <img src={isResizedScreen ? '/close.svg' : '/burger.svg'} alt='Open/Close rewards button' />
+    <div className="game__container">
+      <button type="button" className="game__burger-btn" onClick={handleBurgerClick}>
+        <img src={isResizedScreen ? '/close.svg' : '/burger.svg'} alt="Open/Close rewards button" />
       </button>
-      <div className='game__wrapper'>
-        <h4 className='game__question'>{question}</h4>
+      <div className="game__wrapper">
+        <h4 className="game__question">{question}</h4>
         <AnswersList answers={answers} handleQuestion={handleQuestion} />
       </div>
       {isResizedScreen && <Rewards currentReward={reward} />}

@@ -1,5 +1,5 @@
 import React, { FC, memo } from 'react';
-import { LinkProps, Link as RouterLink } from 'react-router-dom';
+import { LinkProps, Link } from 'react-router-dom';
 import { cx } from '../../utils';
 import './styles.css';
 
@@ -8,9 +8,9 @@ interface SharedLinkProps extends LinkProps {
 }
 
 const StyledLink: FC<SharedLinkProps> = ({ to, children, className }) => (
-  <RouterLink to={to} className={cx('shared-link', className)}>
+  <Link to={to} className={cx('shared-link', className)}>
     {children}
-  </RouterLink>
+  </Link>
 );
 
 export default memo(StyledLink);

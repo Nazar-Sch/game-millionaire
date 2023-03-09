@@ -19,7 +19,7 @@ const useResizeScreen = () => {
 
   return {
     isResizedScreen,
-    setIsResizedScreen
+    setIsResizedScreen,
   };
 };
 
