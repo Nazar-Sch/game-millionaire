@@ -106,7 +106,6 @@
     ],
     "arrow-body-style": ["error", "as-needed"],
     "no-case-declarations": "off",
-    "require-yield": "off", // TODO: change to ["always"]
     "array-bracket-spacing": ["error", "never"],
     "object-curly-spacing": [2, "always"],
     "sort-imports": [

@@ -19,6 +19,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
   .shared-link {
     max-width: 288px;
     height: 48px;

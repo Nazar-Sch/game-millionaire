@@ -9,12 +9,12 @@
 .game__wrapper {
   position: relative;
   width: 100%;
-  margin: 133px 25px 0px 80px;
+  margin: 133px 25px 0 80px;
 }
 
 .game__question {
-  margin: 0px 16px 395px;
-  font-family: 'InterBold';
+  margin: 0 16px 395px;
+  font-family: InterBold;
   font-size: 32px;
 }
 
@@ -23,15 +23,16 @@
 }
 
 @media screen and (max-width: 768px) {
+
   .game__wrapper {
-    margin: 136px 0px 0px 0px;
+    margin: 136px 0 0;
   }
 
   .game__question {
-    margin: 0px 16px;
+    margin: 0 16px;
     margin-bottom: 97px;
     text-align: center;
-    font-family: 'InterBold';
+    font-family: InterBold;
     font-size: 18px;
   }
 

@@ -38,58 +38,57 @@
   background-color: var(--white-color);
 }
 
-.answer-btn__item:before,
-.answer-btn__item:after {
+.answer-btn__item::before,
+.answer-btn__item::after {
   content: '';
   position: absolute;
   top: 14px;
   height: 40px;
   width: 40px;
   border: 2px solid var(--black-40-color);
-  -webkit-transform: scale(0.8, 1.25) rotate(45deg);
-  -moz-transform: scale(0.8, 1.25) rotate(45deg);
-  -ms-transform: scale(0.8, 1.25) rotate(45deg);
-  transform: scale(0.8, 1.25) rotate(45deg);
+  transform: scale(.8, 1.25) rotate(45deg);
   border-radius: 2px;
   background-color: var(--white-color);
 }
 
-.answer-btn__item:before {
+.answer-btn__item::before {
   left: -22px;
-  border-top: 0px solid transparent;
-  border-right: 0px solid transparent;
+  border-top: 0 solid transparent;
+  border-right: 0 solid transparent;
 }
 
-.answer-btn__item:after {
+.answer-btn__item::after {
   right: -22px;
-  border-bottom: 0px solid transparent;
-  border-left: 0px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 0 solid transparent;
 }
 
 .answer-btn__index {
-  margin: 0px 10px;
+  margin: 0 10px;
   color: var(--orange-120-color);
-  font-family: 'InterBold';
+  font-family: InterBold;
   position: relative;
 }
 
 /* Hover */
+
 .answer-btn__wrapper:hover > .answer-btn__left-line,
 .answer-btn__wrapper:hover > .answer-btn__right-line {
   background-color: var(--orange-100-color);
 }
 
 .answer-btn__wrapper:hover > .answer-btn__item,
-.answer-btn__wrapper:hover > .answer-btn__item:before,
-.answer-btn__wrapper:hover > .answer-btn__item:after {
+.answer-btn__wrapper:hover > .answer-btn__item::before,
+.answer-btn__wrapper:hover > .answer-btn__item::after {
   border-color: var(--orange-100-color);
 }
 
 
 /* Selected */
+
 .answer-btn__item.selected,
-.answer-btn__item.selected:before,
-.answer-btn__item.selected:after {
+.answer-btn__item.selected::before,
+.answer-btn__item.selected::after {
   background-color: var(--orange-5-color);
   border-color: var(--orange-100-color);
 }
@@ -100,9 +99,10 @@
 }
 
 /* Correct */
+
 .answer-btn__item.correct,
-.answer-btn__item.correct:before,
-.answer-btn__item.correct:after {
+.answer-btn__item.correct::before,
+.answer-btn__item.correct::after {
   background-color: var(--green-50-color);
   border-color: var(--green-100-color);
 }
@@ -113,8 +113,8 @@
 }
 
 .answer-btn__wrapper:hover > .answer-btn__item.correct,
-.answer-btn__wrapper:hover > .answer-btn__item.correct:before,
-.answer-btn__wrapper:hover > .answer-btn__item.correct:after {
+.answer-btn__wrapper:hover > .answer-btn__item.correct::before,
+.answer-btn__wrapper:hover > .answer-btn__item.correct::after {
   border-color: var(--green-100-color);
 }
 
@@ -125,9 +125,10 @@
 
 
 /* Wrong */
+
 .answer-btn__item.wrong,
-.answer-btn__item.wrong:before,
-.answer-btn__item.wrong:after {
+.answer-btn__item.wrong::before,
+.answer-btn__item.wrong::after {
   background-color: var(--red-5-color);
   border-color: var(--red-100-color);
 }
@@ -138,8 +139,8 @@
 }
 
 .answer-btn__wrapper:hover > .answer-btn__item.wrong,
-.answer-btn__wrapper:hover > .answer-btn__item.wrong:before,
-.answer-btn__wrapper:hover > .answer-btn__item.wrong:after {
+.answer-btn__wrapper:hover > .answer-btn__item.wrong::before,
+.answer-btn__wrapper:hover > .answer-btn__item.wrong::after {
   border-color: var(--red-100-color);
 }
 
@@ -149,6 +150,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
   .answers-container {
     grid-template-columns: auto;
   }
