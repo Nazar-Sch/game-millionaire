@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/game-millionaire/static/css/main.19dae800.css",
+    "main.js": "/game-millionaire/static/js/main.5a7089b4.js",
+    "static/media/Inter-Bold.ttf": "/game-millionaire/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Regular.ttf": "/game-millionaire/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "index.html": "/game-millionaire/index.html",
+    "main.19dae800.css.map": "/game-millionaire/static/css/main.19dae800.css.map",
+    "main.5a7089b4.js.map": "/game-millionaire/static/js/main.5a7089b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19dae800.css",
+    "static/js/main.5a7089b4.js"
+  ]
+}
