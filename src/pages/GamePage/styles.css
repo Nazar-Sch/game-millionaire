@@ -1,0 +1,45 @@
+.game__container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: var(--black-5-color);
+  min-height: 100vh;
+}
+
+.game__wrapper {
+  position: relative;
+  width: 100%;
+  margin: 133px 25px 0px 80px;
+}
+
+.game__question {
+  margin: 0px 16px 395px;
+  font-family: 'InterBold';
+  font-size: 32px;
+}
+
+.game__burger-btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .game__wrapper {
+    margin: 136px 0px 0px 0px;
+  }
+
+  .game__question {
+    margin: 0px 16px;
+    margin-bottom: 97px;
+    text-align: center;
+    font-family: 'InterBold';
+    font-size: 18px;
+  }
+
+  .game__burger-btn {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 2;
+  }
+}

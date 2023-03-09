@@ -1,0 +1,6 @@
+export const HANDLE_QUESTION_DELAY = 3500;
+export const HANDLE_CLASSNAME_DELAY = 2000;
+
+export const FIELDS_NAMES = ['A', 'B', 'C', 'D'];
+
+export const REWARDS = [500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000];

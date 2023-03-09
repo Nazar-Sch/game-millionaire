@@ -1,0 +1,571 @@
+[
+  [
+    {
+      "id": 1,
+      "question": "What is the tallest mammal in the world?",
+      "reward": 500,
+      "answers": [
+        { "text": "Elephant", "correct": false },
+        { "text": "Giraffe", "correct": true },
+        { "text": "Lion", "correct": false },
+        { "text": "Zebra", "correct": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which planet in our solar system is known as the 'Red Planet'?",
+      "reward": 1000,
+      "answers": [
+        { "text": "Venus", "correct": false },
+        { "text": "Earth", "correct": false },
+        { "text": "Mars", "correct": true },
+        { "text": "Saturn", "correct": false }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the largest organ in the human body?",
+      "reward": 2000,
+      "answers": [
+        { "text": "Brain", "correct": false },
+        { "text": "Liver", "correct": false },
+        { "text": "Heart", "correct": false },
+        { "text": "Skin", "correct": true }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which country is the largest by population?",
+      "reward": 4000,
+      "answers": [
+        { "text": "India", "correct": true },
+        { "text": "Poland", "correct": false },
+        { "text": "United States", "correct": false },
+        { "text": "Canada", "correct": false }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the capital of France?",
+      "reward": 8000,
+      "answers": [
+        { "text": "Madrid", "correct": false },
+        { "text": "Berlin", "correct": false },
+        { "text": "Rome", "correct": false },
+        { "text": "Paris", "correct": true }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is not a primary color?",
+      "reward": 16000,
+      "answers": [
+        { "text": "Blue", "correct": false },
+        { "text": "Red", "correct": false },
+        { "text": "Green", "correct": false },
+        { "text": "Yellow", "correct": true }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Who wrote the famous novel 'Pride and Prejudice'?",
+      "reward": 32000,
+      "answers": [
+        { "text": "Jane Austen", "correct": true },
+        { "text": "Virginia Woolf", "correct": false },
+        { "text": "Charlotte Bronte", "correct": false },
+        { "text": "Emily Bronte", "correct": false }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What is the smallest continent in the world?",
+      "reward": 64000,
+      "answers": [
+        { "text": "Asia", "correct": false },
+        { "text": "Australia", "correct": true },
+        { "text": "Europe", "correct": false },
+        { "text": "South America", "correct": false }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a programming language?",
+      "reward": 125000,
+      "answers": [
+        { "text": "Spanish", "correct": false },
+        { "text": "Python", "correct": true },
+        { "text": "Mandarin", "correct": false },
+        { "text": "French", "correct": false }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What is the chemical symbol for gold?",
+      "reward": 250000,
+      "answers": [
+        { "text": "Au", "correct": true },
+        { "text": "Ag", "correct": false },
+        { "text": "Fe", "correct": false },
+        { "text": "Cu", "correct": false }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Who painted the famous artwork 'The Mona Lisa'?",
+      "reward": 500000,
+      "answers": [
+        { "text": "Pablo Picasso", "correct": false },
+        { "text": "Vincent van Gogh", "correct": false },
+        { "text": "Leonardo da Vinci", "correct": true },
+        { "text": "Michelangelo", "correct": false }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the largest ocean in the world?",
+      "reward": 1000000,
+      "answers": [
+        { "text": "Atlantic Ocean", "correct": false },
+        { "text": "Indian Ocean", "correct": false },
+        { "text": "Arctic Ocean", "correct": false },
+        { "text": "Pacific Ocean", "correct": true }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 13,
+      "question": "Who wrote the famous novel 'To Kill a Mockingbird'?",
+      "reward": 500,
+      "answers": [
+        { "text": "Harper Lee", "correct": true },
+        { "text": "Ernest Hemingway", "correct": false },
+        { "text": "William Faulkner", "correct": false },
+        { "text": "John Steinbeck", "correct": false }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the smallest planet in our solar system?",
+      "reward": 1000,
+      "answers": [
+        { "text": "Mars", "correct": false },
+        { "text": "Venus", "correct": false },
+        { "text": "Mercury", "correct": true },
+        { "text": "Jupiter", "correct": false }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Who directed the movie 'The Godfather'?",
+      "reward": 2000,
+      "answers": [
+        { "text": "Steven Spielberg", "correct": false },
+        { "text": "Martin Scorsese", "correct": false },
+        { "text": "Francis Ford Coppola", "correct": true },
+        { "text": "Alfred Hitchcock", "correct": false }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the largest desert in the world?",
+      "reward": 40000,
+      "answers": [
+        { "text": "Sahara Desert", "correct": true },
+        { "text": "Arabian Desert", "correct": false },
+        { "text": "Gobi Desert", "correct": false },
+        { "text": "Mojave Desert", "correct": false }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Who invented the telephone?",
+      "reward": 80000,
+      "answers": [
+        { "text": "Alexander Graham Bell", "correct": true },
+        { "text": "Thomas Edison", "correct": false },
+        { "text": "Nikola Tesla", "correct": false },
+        { "text": "Guglielmo Marconi", "correct": false }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the largest freshwater lake in the world by volume?",
+      "reward": 16000,
+      "answers": [
+        { "text": "Lake Superior", "correct": false },
+        { "text": "Caspian Sea", "correct": false },
+        { "text": "Lake Baikal", "correct": true },
+        { "text": "Great Bear Lake", "correct": false }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Who wrote the famous play 'Hamlet'?",
+      "reward": 32000,
+      "answers": [
+        { "text": "William Shakespeare", "correct": true },
+        { "text": "George Bernard Shaw", "correct": false },
+        { "text": "Tennessee Williams", "correct": false },
+        { "text": "Arthur Miller", "correct": false }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the capital city of Spain?",
+      "reward": 64000,
+      "answers": [
+        { "text": "Madrid", "correct": true },
+        { "text": "Barcelona", "correct": false },
+        { "text": "Valencia", "correct": false },
+        { "text": "Seville", "correct": false }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "What is the largest planet in our solar system?",
+      "reward": 125000,
+      "answers": [
+        { "text": "Mars", "correct": false },
+        { "text": "Jupiter", "correct": true },
+        { "text": "Venus", "correct": false },
+        { "text": "Saturn", "correct": false }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Which of these animals is a marsupial?",
+      "reward": 250000,
+      "answers": [
+        { "text": "Kangaroo", "correct": true },
+        { "text": "Elephant", "correct": false },
+        { "text": "Lion", "correct": false },
+        { "text": "Giraffe", "correct": false }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "What is the smallest country in the world?",
+      "reward": 500000,
+      "answers": [
+        { "text": "Vatican City", "correct": true },
+        { "text": "Monaco", "correct": false },
+        { "text": "Nauru", "correct": false },
+        { "text": "San Marino", "correct": false }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Who invented the telephone?",
+      "reward": 1000000,
+      "answers": [
+        { "text": "Thomas Edison", "correct": false },
+        { "text": "Guglielmo Marconi", "correct": false },
+        { "text": "Alexander Graham Bell", "correct": true },
+        { "text": "Nikola Tesla", "correct": false }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 25,
+      "question": "What is the name of the famous painting by Leonardo da Vinci that depicts a woman with a mysterious smile?",
+      "reward": 500,
+      "answers": [
+        { "text": "The Last Supper", "correct": false },
+        { "text": "The Creation of Adam", "correct": false },
+        { "text": "The Mona Lisa", "correct": true },
+        { "text": "The Sistine Chapel", "correct": false }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What is the name of the river that flows through Egypt?",
+      "reward": 1000,
+      "answers": [
+        { "text": "Nile", "correct": true },
+        { "text": "Amazon", "correct": false },
+        { "text": "Yangtze", "correct": false },
+        { "text": "Mississippi", "correct": false }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "What is the largest planet in our solar system?",
+      "reward": 2000,
+      "answers": [
+        { "text": "Jupiter", "correct": true },
+        { "text": "Mars", "correct": false },
+        { "text": "Saturn", "correct": false },
+        { "text": "Venus", "correct": false }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Which planet is closest to the sun?",
+      "reward": 4000,
+      "answers": [
+        { "text": "Mercury", "correct": true },
+        { "text": "Venus", "correct": false },
+        { "text": "Earth", "correct": false },
+        { "text": "Mars", "correct": false }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "What is the capital city of Australia?",
+      "reward": 8000,
+      "answers": [
+        { "text": "Canberra", "correct": true },
+        { "text": "Sydney", "correct": false },
+        { "text": "Melbourne", "correct": false },
+        { "text": "Brisbane", "correct": false }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "What is the largest mammal in the world?",
+      "reward": 16000,
+      "answers": [
+        { "text": "Blue whale", "correct": true },
+        { "text": "African elephant", "correct": false },
+        { "text": "Hippopotamus", "correct": false },
+        { "text": "Giraffe", "correct": false }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "What is the smallest country in the world?",
+      "reward": 32000,
+      "answers": [
+        { "text": "Vatican City", "correct": true },
+        { "text": "Monaco", "correct": false },
+        { "text": "San Marino", "correct": false },
+        { "text": "Liechtenstein", "correct": false }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "What is the largest ocean in the world?",
+      "reward": 64000,
+      "answers": [
+        { "text": "Pacific Ocean", "correct": true },
+        { "text": "Atlantic Ocean", "correct": false },
+        { "text": "Indian Ocean", "correct": false },
+        { "text": "Arctic Ocean", "correct": false }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Who invented the telephone?",
+      "reward": 125000,
+      "answers": [
+        { "text": "Alexander Graham Bell", "correct": true },
+        { "text": "Thomas Edison", "correct": false },
+        { "text": "Nikola Tesla", "correct": false },
+        { "text": "Samuel Morse", "correct": false }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Who is the current president of the United States?",
+      "reward": 250000,
+      "answers": [
+        { "text": "Joe Biden", "correct": true },
+        { "text": "Barack Obama", "correct": false },
+        { "text": "Donald Trump", "correct": false },
+        { "text": "George W. Bush", "correct": false }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "What is the capital of Canada?",
+      "reward": 500000,
+      "answers": [
+        { "text": "Ottawa", "correct": true },
+        { "text": "Toronto", "correct": false },
+        { "text": "Vancouver", "correct": false },
+        { "text": "Montreal", "correct": false }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Who wrote the novel '1984'?",
+      "reward": 1000000,
+      "answers": [
+        { "text": "George Orwell", "correct": true },
+        { "text": "Ernest Hemingway", "correct": false },
+        { "text": "F. Scott Fitzgerald", "correct": false },
+        { "text": "J.D. Salinger", "correct": false }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 37,
+      "question": "What is the largest river in South America?",
+      "reward": 500,
+      "answers": [
+        { "text": "Amazon River", "correct": true },
+        { "text": "Paraná River", "correct": false },
+        { "text": "Orinoco River", "correct": false },
+        { "text": "Magdalena River", "correct": false }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Who directed the film 'Pulp Fiction'?",
+      "reward": 1000,
+      "answers": [
+        { "text": "Quentin Tarantino", "correct": true },
+        { "text": "Martin Scorsese", "correct": false },
+        { "text": "Steven Spielberg", "correct": false },
+        { "text": "David Lynch", "correct": false }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "What is the smallest bone in the human body?",
+      "reward": 2000,
+      "answers": [
+        { "text": "Stapes bone in the ear", "correct": true },
+        { "text": "Patella bone in the knee", "correct": false },
+        { "text": "Phalangeal bone in the finger", "correct": false },
+        { "text": "Tarsal bone in the ankle", "correct": false }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "What is the largest volcano in the world?",
+      "reward": 4000,
+      "answers": [
+        { "text": "Mauna Loa in Hawaii", "correct": true },
+        { "text": "Mount Etna in Italy", "correct": false },
+        { "text": "Mount Fuji in Japan", "correct": false },
+        { "text": "Mount Kilimanjaro in Tanzania", "correct": false }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "What is the smallest country in the world?",
+      "reward": 500,
+      "answers": [
+        { "text": "Vatican City", "correct": true },
+        { "text": "Monaco", "correct": false },
+        { "text": "Liechtenstein", "correct": false },
+        { "text": "San Marino", "correct": false }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "What is the largest planet in the solar system?",
+      "reward": 1000,
+      "answers": [
+        { "text": "Jupiter", "correct": true },
+        { "text": "Saturn", "correct": false },
+        { "text": "Neptune", "correct": false },
+        { "text": "Uranus", "correct": false }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "Who wrote the play 'Hamlet'?",
+      "reward": 2000,
+      "answers": [
+        { "text": "William Shakespeare", "correct": true },
+        { "text": "Arthur Miller", "correct": false },
+        { "text": "Tennessee Williams", "correct": false },
+        { "text": "Samuel Beckett", "correct": false }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "What is the largest desert in the world?",
+      "reward": 4000,
+      "answers": [
+        { "text": "Sahara Desert", "correct": true },
+        { "text": "Arabian Desert", "correct": false },
+        { "text": "Gobi Desert", "correct": false },
+        { "text": "Mojave Desert", "correct": false }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Who painted the 'Mona Lisa'?",
+      "reward": 8000,
+      "answers": [
+        { "text": "Leonardo da Vinci", "correct": true },
+        { "text": "Vincent van Gogh", "correct": false },
+        { "text": "Pablo Picasso", "correct": false },
+        { "text": "Rembrandt", "correct": false }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "What is the capital of Japan?",
+      "reward": 16000,
+      "answers": [
+        { "text": "Tokyo", "correct": true },
+        { "text": "Kyoto", "correct": false },
+        { "text": "Osaka", "correct": false },
+        { "text": "Hiroshima", "correct": false }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "What is the currency of Brazil?",
+      "reward": 32000,
+      "answers": [
+        { "text": "Brazilian Real", "correct": true },
+        { "text": "Brazilian Peso", "correct": false },
+        { "text": "Brazilian Dollar", "correct": false },
+        { "text": "Brazilian Euro", "correct": false }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "What is the capital of Australia?",
+      "reward": 125000,
+      "answers": [
+        { "text": "Canberra", "correct": true },
+        { "text": "Sydney", "correct": false },
+        { "text": "Melbourne", "correct": false },
+        { "text": "Brisbane", "correct": false }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "Which country gifted the Statue of Liberty to the United States?",
+      "reward": 250000,
+      "answers": [
+        { "text": "France", "correct": true },
+        { "text": "Spain", "correct": false },
+        { "text": "Italy", "correct": false },
+        { "text": "Germany", "correct": false }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "What is the smallest bone in the human body?",
+      "reward": 500000,
+      "answers": [
+        { "text": "Stapes bone in the ear", "correct": true },
+        { "text": "Femur bone in the leg", "correct": false },
+        { "text": "Vertebrae bone in the spine", "correct": false },
+        { "text": "Scapula bone in the shoulder", "correct": false }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "What is the currency of Russia?",
+      "reward": 1000000,
+      "answers": [
+        { "text": "Russian Ruble", "correct": true },
+        { "text": "Russian Dollar", "correct": false },
+        { "text": "Russian Euro", "correct": false },
+        { "text": "Russian Yen", "correct": false }
+      ]
+    }
+  ]
+]

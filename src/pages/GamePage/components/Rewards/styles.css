@@ -1,0 +1,142 @@
+.rewards__container {
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 376px;
+  width: 100%;
+  -webkit-box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: -5px 0px 25px 1px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+}
+
+.rewards-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.rewards-item__left-line,
+.rewards-item__right-line {
+  width: 15%;
+  height: 2px;
+  background-color: var(--black-40-color);
+}
+
+.rewards-item__right-line {
+  margin-left: 14px;
+}
+
+.rewards-item__item {
+  position: relative;
+  padding: 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 2px;
+  width: 70%;
+  margin-left: 14px;
+  border-top: 2px solid var(--black-40-color);
+  border-bottom: 2px solid var(--black-40-color);
+  background-color: var(--white-color);
+}
+
+.rewards-item__item:before,
+.rewards-item__item:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  height: 24px;
+  width: 24px;
+  border: 2px solid var(--black-40-color);
+  -webkit-transform: scale(0.8, 1.25) rotate(45deg);
+  -moz-transform: scale(0.8, 1.25) rotate(45deg);
+  -ms-transform: scale(0.8, 1.25) rotate(45deg);
+  transform: scale(0.8, 1.25) rotate(45deg);
+  border-radius: 2px;
+  background-color: var(--white-color);
+}
+
+.rewards-item__item:before {
+  left: -13px;
+  border-top: 0px solid transparent;
+  border-right: 0px solid transparent;
+  z-index: 150;
+}
+
+.rewards-item__item:after {
+  right: -13px;
+  border-bottom: 0px solid transparent;
+  border-left: 0px solid transparent;
+}
+
+/* Current */
+.rewards-item__item.current-reward,
+.rewards-item__item.current-reward:before,
+.rewards-item__item.current-reward:after {
+  border-color: var(--orange-100-color);
+  color: var(--orange-80-color);
+}
+
+.rewards-item__left-line.current-reward,
+.rewards-item__right-line.current-reward {
+  background-color: var(--orange-80-color);
+}
+
+/* Less */
+.rewards-item__item.less-reward,
+.rewards-item__item.less-reward:before,
+.rewards-item__item.less-reward:after {
+  border-color: var(--black-40-color);
+  color: var(--black-40-color);
+}
+
+.rewards-item__left-line.less-reward,
+.rewards-item__right-line.less-reward {
+  background-color: var(--black-40-color);
+}
+
+@media screen and (max-width: 768px) {
+  .rewards__container {
+    max-width: 100vw;
+    position: absolute;
+    background-color: var(--black-5-color);
+  }
+
+  .rewards-item__item {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .rewards-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+  }
+
+  .rewards-item__right-line {
+    margin-left: 12px;
+  }
+
+  .rewards-item__item {
+    margin-left: 12px;
+  }
+
+  .rewards-item__item:before,
+  .rewards-item__item:after {
+    top: 5px;
+    height: 19px;
+    width: 19px;
+  }
+
+  .rewards-item__item:before {
+    left: -11px;
+  }
+
+  .rewards-item__item:after {
+    right: -11px;
+  }
+}

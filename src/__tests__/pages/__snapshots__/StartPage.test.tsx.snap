@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StartPage should render correctly 1`] = `
+<div>
+  <div
+    class="custom-page-container start-container"
+  >
+    <img
+      alt="Millionaire's finger"
+      class="custom-image"
+      src="/finger.png"
+    />
+    <h2
+      class="custom-heading"
+    >
+      Who wants to be a milliomaire?
+    </h2>
+    <a
+      class="shared-link custom-button"
+      href="/game"
+    >
+      Start
+    </a>
+  </div>
+</div>
+`;

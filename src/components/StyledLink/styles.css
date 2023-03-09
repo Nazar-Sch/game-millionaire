@@ -1,0 +1,27 @@
+.shared-link {
+  max-width: 296px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 20px;
+  color: var(--white-color);
+  background-color: var(--orange-100-color);
+  text-decoration: none;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.shared-link:hover {
+  background-color: var(--orange-80-color);
+}
+
+.shared-link:active {
+  background-color: var(--orange-120-color);
+}
+
+@media screen and (max-width: 768px) {
+  .shared-link {
+    max-width: 288px;
+    height: 48px;
+    line-height: 48px;
+  }
+}
