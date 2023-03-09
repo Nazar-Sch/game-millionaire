@@ -23,14 +23,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "lint:fix": "eslint --fix --ext .ts,.tsx .",
     "stylelint": "stylelint \"src/**/*.css\"",
     "stylelint:fix": "stylelint \"src/**/*.css\" --fix",
     "prepare": "husky install",
-    "pre-commit": "npm run lint:fix && npm run stylelint:fix"
+    "pre-commit": "npm run lint:fix && npm run stylelint:fix",
+    "deploy": "gh-pages -d build",
+    "predeploy": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
