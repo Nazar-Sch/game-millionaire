@@ -20,7 +20,7 @@ const Game: FC = () => {
   const handleQuestion = (correct: boolean) => {
     setTimer(HANDLE_QUESTION_DELAY, () => {
       if (!correct || questionIndex === questions.length - 1) {
-        navigate('/gameover', { state: { reward } });
+        navigate('/game-millionaire/gameover', { state: { reward } });
         return;
       }
       setQuestionIndex((prev) => prev + 1);
@@ -34,7 +34,7 @@ const Game: FC = () => {
   return (
     <div className="game__container">
       <button type="button" className="game__burger-btn" onClick={handleBurgerClick}>
-        <img src={isResizedScreen ? '/close.svg' : '/burger.svg'} alt="Open/Close rewards button" />
+        <img src={isResizedScreen ? '/game-millionaire/close.svg' : '/game-millionaire/burger.svg'} alt="Open/Close rewards button" />
       </button>
       <div className="game__wrapper">
         <h4 className="game__question">{question}</h4>

@@ -10,14 +10,14 @@ const GameOver: FC = () => {
 
   return (
     <div className="custom-page-container">
-      <img src="/finger.png" alt="Millionaire's finger" className="custom-image" />
+      <img src="/game-millionaire/finger.png" alt="Millionaire's finger" className="custom-image" />
       <p className="custom-sub-heading">Total score:</p>
       <h2 className="custom-heading">
         {convertToUSD(reward)}
         {' '}
         earned
       </h2>
-      <StyledLink to="/" className="custom-button">
+      <StyledLink to="/game-millionaire" className="custom-button">
         Try again
       </StyledLink>
     </div>
