@@ -11,9 +11,9 @@ import './styles/styles.css';
 
 const App = () => (
   <Routes>
-    <Route path="/" element={<StartPage />} />
-    <Route path="game" element={<GamePage />} />
-    <Route path="gameover" element={<GameOverPage />} />
+    <Route path="/game-millionaire/" element={<StartPage />} />
+    <Route path="/game-millionaire/game" element={<GamePage />} />
+    <Route path="/game-millionaire/gameover" element={<GameOverPage />} />
     <Route path="*" element={<NoMatchPage />} />
   </Routes>
 );
